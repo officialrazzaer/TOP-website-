@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+  }
+  
+  header {
+    background-color: darkcyan;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin-left: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  h2 {
+    margin: 0;
+    color: white;
+  }
+  
+  /* Additional styles for positioning */
+  header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  
+  nav {
+    margin-left: auto;
+  }
+
+/* the contents */
+
+.subheader {
+  display: flex;
+  background-color: darkcyan;
+  padding-left: 10px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.description {
+  flex:1;
+  color: white;
+}
+
+.image {
+  flex:1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.image img {
+  max-width: 100%;
+  max-height: 100%;
+  margin-right: 100px;
+}
+
+.my-button {
+  background-color: beige;
+  color: black;
+  border-radius: 8px;
+  cursor: pointer;
+  border:none;
+  padding: 5px 10px;
+}
+
+.my-button:hover {
+  background-color: bisque;
+}
+
+.my-button:focus {
+  outline: none;
+}
+
+/* style the body images and text */
+
+.random-info {
+  text-align: center;
+  background-color: white;
+}
+
+.heading {
+  color: black;
+  margin-bottom: 20px;
+}
+
+.widgets {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.container {
+  margin-bottom: 10px;
+}
+
+.text-below {
+  flex:1;
+  text-align: center;
+}
+
+.container {
+  background-color: white;
+  border: 2px solid blue;
+  border-radius: 8px;
+  padding: 30px;
+}
+
+.quote {
+  background-color: lightgrey;
+}
+
+.full-quote {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.quote-text p {
+  font-size: 20px;
+  font-style: italic;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.quote-author p {
+  font-size: 20px;
+  font-weight: bold;
+  max-width: 500px;
+  margin: 10 auto;
+}
+
+/* making the call to action */
+
+.cta {
+  background-color: darkcyan;
+  padding: 20px;
+}
+
+.cta-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.cta-text {
+  flex: 1;
+}
+
+.cta-button {
+  margin-left: 20px;
+}
+
+.signup-button {
+  background-color: white;
+  color: darkcyan;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.signup-button:hover {
+  background-color: #fffafa;
+}
+
+.signup-button:focus {
+  outline: none;
+}
+
+
+
+
+
+  
